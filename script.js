@@ -9,6 +9,8 @@ const progressContainer = document.getElementById('progress-container');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
+const volume = document.getElementById('volume-progress')
+console.log(volume)
 
 // Music
 const songs = [
@@ -86,6 +88,12 @@ function nextSong() {
   loadSong(songs[songIndex]);
   playSong();
 }
+
+// volume control
+
+ volume.addEventListener('change', function(e){
+   music.volume = e.currentTarget.value /100
+ })
 
 // On Load - Select First Song
 loadSong(songs[songIndex]);
