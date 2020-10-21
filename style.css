@@ -107,6 +107,35 @@ h3 {
   position: relative;
   top: 3px;
 }
+
+/* Volume */
+.volume{
+  position: absolute;
+  width: 100%;
+  color: rgb(129, 129, 129);
+  margin-top: 7%;
+
+} 
+input{
+  -webkit-appearance: none;
+  border-radius: 5px;
+  height: 7px;
+  background: rgb(129, 129, 129);
+  transition: width 0.1s linear;
+ cursor: pointer;
+ outline: none;
+}
+
+input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+/* credit */
+
 h4{
   position: absolute;
   color: rgb(129, 129, 129);
