@@ -134,6 +134,10 @@ input::-webkit-slider-thumb{
   border-radius: 50px;
 }
 
+input:hover {
+  filter: brightness(80%);
+}
+
 /* credit */
 
 h4{

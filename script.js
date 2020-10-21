@@ -34,6 +34,11 @@ const songs = [
     displayName: 'Front Row (Remix)',
     artist: 'Metric/Jacinto Design',
   },
+  {
+    name: 'testing',
+    displayName: 'Reverse',
+    artist: 'Anonymous'
+  }
 ];
 
 // Check if Playing
